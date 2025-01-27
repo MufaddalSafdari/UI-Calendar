@@ -1,0 +1,392 @@
+@media print {
+  body {
+    font-size: 12px; /* Ensure text is readable */
+  }
+  .day,
+  .weekday {
+    box-shadow: none !important; /* Remove shadows */
+    transform: none !important; /* Remove transformations */
+  }
+  .calendar-container {
+    background: white !important; /* Ensure solid background */
+  }
+}
+/* General Body Style */
+body {
+  font-size: 11px;
+  background-color: #f7f7fb; /* Light pastel gray-blue */
+  color: #333333; /* Dark Gray for contrast */
+  font-family: 'Amiri', 'Cairo', 'Tajawal', 'Noto Naskh Arabic', Arial,
+    sans-serif; /* Arabic font stack */
+  margin: 0;
+  padding: 0;
+}
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95); /* Slightly smaller initially */
+  }
+  to {
+    opacity: 1;
+    transform: scale(1); /* Final size */
+  }
+}
+
+/* Apply Fade-in to Days */
+.day {
+  animation: fadeIn 1s ease-in-out; /* Smooth fade-in on load */
+}
+/* Apply Fade-in to Weekdays */
+.weekday {
+  animation: fadeIn 1s ease-in-out; /* Smooth fade-in on load */
+}
+/* Month Title Styling */
+.month-title {
+  font-size: 2rem; /* Larger size for emphasis */
+  font-weight: bold; /* Bold for prominence */
+  font-family: 'Poppins', 'Amiri', 'Cairo', sans-serif; /* Modern font stack */
+  color: #4a90e2; /* Vibrant soft blue */
+  text-align: center; /* Center the title */
+  text-transform: capitalize; /* Capitalize for uniformity */
+  letter-spacing: 1px; /* Slight spacing for elegance */
+}
+.arabic {
+  font-size: 1rem;
+  color: #0066cc; /* Soft blue */
+}
+.english {
+  font-size: 0.85rem;
+  color: #333; /* Dark gray */
+}
+/* Weekdays Styling */
+.weekday {
+  margin-bottom: 10px;
+  background-color: transparent !important;
+}
+.day:hover {
+  background-color: #fff2e0; /* Light peach */
+}
+/* Day Hover Effect */
+.day:hover,
+.weekday:hover {
+  background-color: #f0f8ff; /* Soft pastel blue */
+  transform: scale(1.05); /* Slight zoom */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.6s ease; /* Smooth transition */
+}
+
+/* Specific Highlight for Today's Hover */
+/* Today's Day Special Hover */
+.day.today:hover {
+  background-color: #ffe4b3; /* Light orange-yellow */
+  box-shadow: 0 6px 12px rgba(255, 165, 0, 0.4); /* Stronger shadow */
+  transform: scale(1.05); /* Slightly larger zoom */
+  transition: all 0.6s ease-in-out; /* Smooth easing for today */
+}
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.month-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.nav-btn {
+  background-color: #d4f1f4;
+  color: #008cba;
+  border: none;
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.nav-btn:hover {
+  background-color: #b2ebf2;
+}
+/* .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  } */
+
+/* .day {
+    min-width: 30px;
+    aspect-ratio: 1 / 1;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+/* .outside {
+    color: #100e0e;
+    background-color: #f0f0f0;
+  } */
+.selected-date {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.department-legend {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+}
+.department-legend ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.department-legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* #{Beautified Styles} */
+.calendar-container {
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.month-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.nav-btn {
+  background-color: #d4f1f4;
+  color: #008cba;
+  border: none;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.nav-btn:hover {
+  background-color: #b2ebf2;
+}
+.calendar-grid .day,
+.weekday {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box; /* Ensure padding doesn't affect the layout */
+}
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    7,
+    1fr
+  ); /* Ensure equal-width columns for 7 days */
+  gap: 10px;
+}
+.weekdays {
+  font-weight: bold;
+  text-align: center;
+  color: #666;
+}
+/* Style for Days Outside the Month */
+.day.outside {
+  background-color: #f7f7f7; /* Light gray background */
+  color: #b0b0b0; /* Soft gray text color */
+  border: 1px solid #e0e0e0; /* Subtle border */
+  cursor: not-allowed; /* Disable pointer cursor */
+  opacity: 0.6; /* Slight transparency */
+}
+/* Highlight for Today's Date */
+.day.today {
+  background-color: #ffebcc; /* Soft pastel yellow background */
+  color: #333333; /* Dark gray text for contrast */
+  border: 2px solid #ffa500; /* Orange border for emphasis */
+  border-radius: 4px; /* Match other day box styling */
+  font-weight: bold; /* Bold text to emphasize */
+  box-shadow: 0 2px 4px rgba(255, 165, 0, 0.3); /* Subtle orange shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+.day.today:hover {
+  background-color: #ffe4b3; /* Slightly darker pastel yellow on hover */
+  box-shadow: 0 4px 8px rgba(255, 165, 0, 0.4); /* Enhance shadow on hover */
+}
+.event {
+  padding: 4px 2px;
+  margin: 2px 0;
+  border-radius: 3px;
+  color: #333; /* Text color */
+  width: 100%;
+  background-color: var(--department-color); /* Dynamic color per department */
+}
+.selected-date {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.department-legend {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+}
+.department-legend ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.department-legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+/* General Style for Departments */
+.department {
+  border-radius: 8px;
+  color: #333333; /* Dark text for contrast */
+  text-align: center;
+}
+
+/* Specific Styles for Each Department with Darker Fonts */
+.IT {
+  background: linear-gradient(135deg, #ffc1c1, #ffa3a3); /* Coral */
+  color: #8b0000; /* Dark red */
+}
+
+.HR {
+  background: linear-gradient(135deg, #ffdea5, #ffd685); /* Apricot */
+  color: #8b4513; /* Saddle brown */
+}
+
+.Finance {
+  background: linear-gradient(135deg, #d6d6f5, #bebee8); /* Lavender */
+  color: #4b0082; /* Indigo */
+}
+
+.Product {
+  background: linear-gradient(135deg, #a2d9ff, #81c7f2); /* Sky Blue */
+  color: #004080; /* Navy blue */
+}
+
+.Communications {
+  background: linear-gradient(135deg, #faf3dd, #f5e7a7); /* Vanilla Cream */
+  color: #5c4033; /* Dark brown */
+}
+
+.CaseManagement {
+  background: linear-gradient(135deg, #b8f5d3, #8fefc1); /* Mint Green */
+  color: #006400; /* Dark green */
+}
+
+.BDD {
+  background: linear-gradient(135deg, #fff6a3, #fde780); /* Yellow */
+  color: #8b8000; /* Olive */
+}
+
+.Networking {
+  background: linear-gradient(135deg, #c9b6e4, #a889d3); /* Lilac */
+  color: #4b0082; /* Indigo */
+}
+
+.TAP {
+  background: linear-gradient(135deg, #ffc9c7, #ffa9a8); /* Rose Quartz */
+  color: #800000; /* Maroon */
+}
+
+.Hijri {
+  background: linear-gradient(135deg, #f7dc6f, #ebc65e); /* Gold */
+  color: #8b5a00; /* Dark goldenrod */
+}
+
+.OperationsCoordination {
+  background: linear-gradient(135deg, #daf5fa, #aee9f2); /* Aqua */
+  color: #007080; /* Teal */
+}
+
+.TR_Website {
+  background: linear-gradient(135deg, #efd6ec, #d4a3d0); /* Pink Lavender */
+  color: #800080; /* Purple */
+}
+
+.PMO {
+  background: linear-gradient(135deg, #d4f1f4, #b0e0e3); /* Ice Blue */
+  color: #005f73; /* Deep teal */
+}
+
+.department-legend {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 1rem;
+  color: #444;
+}
+.department-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.department-list li {
+  flex: 1 1 calc(33.33% - 20px); /* 3 columns; adjust percentage for more */
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.legend-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .department-list li {
+    flex: 1 1 calc(50% - 20px); /* Reduce to two columns */
+  }
+}
+@media (max-width: 480px) {
+  .department-list li {
+    flex: 1 1 100%; /* Single column on very small screens */
+  }
+}
