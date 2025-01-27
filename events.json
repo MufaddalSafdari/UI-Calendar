@@ -1,200 +1,995 @@
 [
-    { "date": "2024-12-02", "department": "Hijri", "event": "1 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-03", "department": "Hijri", "event": "2 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-04", "department": "Hijri", "event": "3 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-05", "department": "Hijri", "event": "4 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-06", "department": "Hijri", "event": "5 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-07", "department": "Hijri", "event": "6 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-08", "department": "Hijri", "event": "7 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-09", "department": "Hijri", "event": "8 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-10", "department": "Hijri", "event": "9 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-11", "department": "Hijri", "event": "10 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-12", "department": "Hijri", "event": "11 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-13", "department": "Hijri", "event": "12 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-14", "department": "Hijri", "event": "13 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-15", "department": "Hijri", "event": "14 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-16", "department": "Hijri", "event": "15 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-17", "department": "Hijri", "event": "16 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-18", "department": "Hijri", "event": "17 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-19", "department": "Hijri", "event": "18 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-20", "department": "Hijri", "event": "19 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-21", "department": "Hijri", "event": "20 Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-29", "department": "Hijri", "event": "٢٨ Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-30", "department": "Hijri", "event": "٢٩ Jumada al-Ukhra 1446H" },
-    { "date": "2024-12-31", "department": "Hijri", "event": "١ Rajab al-Asab" },
-    { "date": "2025-01-01", "department": "Hijri", "event": "٢ Rajab al-Asab" },
-    { "date": "2025-01-02", "department": "Hijri", "event": "٣ Rajab al-Asab" },
-    { "date": "2025-01-03", "department": "Hijri", "event": "٤ Rajab al-Asab" },
-    { "date": "2025-01-04", "department": "Hijri", "event": "٥ Rajab al-Asab" },
-    { "date": "2025-01-05", "department": "Hijri", "event": "٦ Rajab al-Asab" },
-    { "date": "2025-01-06", "department": "Hijri", "event": "٧ Rajab al-Asab" },
-    { "date": "2025-01-07", "department": "Hijri", "event": "٨ Rajab al-Asab" },
-    { "date": "2025-01-08", "department": "Hijri", "event": "٩ Rajab al-Asab" },
-    { "date": "2025-01-09", "department": "Hijri", "event": "١٠ Rajab al-Asab" },
-    { "date": "2025-01-10", "department": "Hijri", "event": "١١ Rajab al-Asab" },
-    { "date": "2025-01-11", "department": "Hijri", "event": "١٢ Rajab al-Asab" },
-    { "date": "2025-01-12", "department": "Hijri", "event": "١٣ Rajab al-Asab" },
-    { "date": "2025-01-13", "department": "Hijri", "event": "١٤ Rajab al-Asab" },
-    { "date": "2025-01-14", "department": "Hijri", "event": "١٥ Rajab al-Asab" },
-    { "date": "2025-01-15", "department": "Hijri", "event": "١٦ Rajab al-Asab" },
-    { "date": "2025-01-16", "department": "Hijri", "event": "١٧ Rajab al-Asab" },
-    { "date": "2025-01-17", "department": "Hijri", "event": "١٨ Rajab al-Asab" },
-    { "date": "2025-01-18", "department": "Hijri", "event": "١٩ Rajab al-Asab" },
-    { "date": "2025-01-19", "department": "Hijri", "event": "٢٠ Rajab al-Asab" },
-    { "date": "2025-01-20", "department": "Hijri", "event": "٢١ Rajab al-Asab" },
-    { "date": "2025-01-21", "department": "Hijri", "event": "٢٢ Rajab al-Asab" },
-    { "date": "2025-01-22", "department": "Hijri", "event": "٢٣ Rajab al-Asab" },
-    { "date": "2025-01-23", "department": "Hijri", "event": "٢٤ Rajab al-Asab" },
-    { "date": "2025-01-24", "department": "Hijri", "event": "٢٥ Rajab al-Asab" },
-    { "date": "2025-01-25", "department": "Hijri", "event": "٢٦ Rajab al-Asab" },
-    { "date": "2025-01-26", "department": "Hijri", "event": "٢٧ Rajab al-Asab" },
-    { "date": "2025-01-27", "department": "Hijri", "event": "٢٨ Rajab al-Asab" },
-    { "date": "2025-01-28", "department": "Hijri", "event": "٢٩ Rajab al-Asab" },
-    { "date": "2025-01-29", "department": "Hijri", "event": "٣٠ Rajab al-Asab" },
-    { "date": "2025-01-30", "department": "Hijri", "event": "١ Shabaan al-Karim" },
-    { "date": "2025-01-31", "department": "Hijri", "event": "٢ Shabaan al-Karim" },
-    { "date": "2025-02-01", "department": "Hijri", "event": "٣ Shabaan al-Karim" },
-    { "date": "2025-02-02", "department": "Hijri", "event": "٤ Shabaan al-Karim" },
-    { "date": "2025-02-03", "department": "Hijri", "event": "٥ Shabaan al-Karim" },
-    { "date": "2025-02-04", "department": "Hijri", "event": "٦ Shabaan al-Karim" },
-    { "date": "2025-02-05", "department": "Hijri", "event": "٧ Shabaan al-Karim" },
-    { "date": "2025-02-06", "department": "Hijri", "event": "٨ Shabaan al-Karim" },
-    { "date": "2025-02-07", "department": "Hijri", "event": "٩ Shabaan al-Karim" },
-    { "date": "2025-02-08", "department": "Hijri", "event": "١٠ Shabaan al-Karim" },
-    { "date": "2025-02-09", "department": "Hijri", "event": "١١ Shabaan al-Karim" },
-    { "date": "2025-02-10", "department": "Hijri", "event": "١٢ Shabaan al-Karim" },
-    { "date": "2025-02-11", "department": "Hijri", "event": "١٣ Shabaan al-Karim" },
-    { "date": "2025-02-12", "department": "Hijri", "event": "١٤ Shabaan al-Karim" },
-    { "date": "2025-02-13", "department": "Hijri", "event": "١٥ Shabaan al-Karim" },
-    { "date": "2025-02-14", "department": "Hijri", "event": "١٦ Shabaan al-Karim" },
-    { "date": "2025-02-15", "department": "Hijri", "event": "١٧ Shabaan al-Karim" },
-    { "date": "2025-02-16", "department": "Hijri", "event": "١٨ Shabaan al-Karim" },
-    { "date": "2025-02-17", "department": "Hijri", "event": "١٩ Shabaan al-Karim" },
-    { "date": "2025-02-18", "department": "Hijri", "event": "٢٠ Shabaan al-Karim" },
-    { "date": "2025-02-19", "department": "Hijri", "event": "٢١ Shabaan al-Karim" },
-    { "date": "2025-02-20", "department": "Hijri", "event": "٢٢ Shabaan al-Karim" },
-    { "date": "2025-02-21", "department": "Hijri", "event": "٢٣ Shabaan al-Karim" },
-    { "date": "2025-02-22", "department": "Hijri", "event": "٢٤ Shabaan al-Karim" },
-    { "date": "2025-02-23", "department": "Hijri", "event": "٢٥ Shabaan al-Karim" },
-    { "date": "2025-02-24", "department": "Hijri", "event": "٢٦ Shabaan al-Karim" },
-    { "date": "2025-02-25", "department": "Hijri", "event": "٢٧ Shabaan al-Karim" },
-    { "date": "2025-02-26", "department": "Hijri", "event": "٢٨ Shabaan al-Karim" },
-    { "date": "2025-02-27", "department": "Hijri", "event": "٢٩ Shabaan al-Karim" },
-    { "date": "2025-01-26", "department": "IT", "event": "Holiday" },
-    { "date": "2024-12-31", "department": "CaseManagement", "event": "Hawaij & Sadat Kiram Cases Report" },
-    { "date": "2025-01-01", "department": "CaseManagement", "event": "CaseManagement Report" },
-    { "date": "2025-01-01", "department": "Communications", "event": "Communications - Product Meeting" },
-    { "date": "2025-01-01", "department": "Finance", "event": "UKK Disbursement" },
-    { "date": "2025-01-01", "department": "OperationsCoordination", "event": "TWT Orientation Topic wise (PMO Collaboration)" },
-    { "date": "2025-01-01", "department": "Product", "event": "Product-Communications Meeting" },
-    { "date": "2025-01-01", "department": "CaseManagement", "event": "Muwasaat & Upliftment Cases Report" },
-    { "date": "2025-01-02", "department": "IT", "event": "Country Setup for QH - Reunion" },
-    { "date": "2025-01-03", "department": "CaseManagement", "event": "BCHET Cases Report" },
-    { "date": "2025-01-03", "department": "Communications", "event": "Mohammedi scheme collection" },
-    { "date": "2025-01-04", "department": "BDD", "event": "Saifee Burhani Expo" },
-    { "date": "2025-01-05", "department": "BDD", "event": "Saifee Burhani Expo" },
-    { "date": "2025-01-06", "department": "BDD", "event": "Saifee Burhani Expo" },
-    { "date": "2025-01-04", "department": "Finance", "event": "Monthly UKK Reporting" },
-    { "date": "2025-01-04", "department": "HR", "event": "Khaleej Jamiyat Orientation Programme" },
-    { "date": "2025-01-04", "department": "Networking", "event": "Garfab - TX Surat" },
-    { "date": "2025-01-04", "department": "Product", "event": "Weekly Counselling Product Update" },
-    { "date": "2025-01-04", "department": "TAP", "event": "Stress & Business Growth" },
-    { "date": "2025-01-05", "department": "Communications", "event": "UI Newsletter" },
-    { "date": "2025-01-05", "department": "HR", "event": "Committee Orientation (USA)" },
-    { "date": "2025-01-05", "department": "HR", "event": "Khaleej Jamiyat Orientation Programme" },
-    { "date": "2025-01-05", "department": "Networking", "event": "Saif Expo Madras" },
-    { "date": "2025-01-05", "department": "TAP", "event": "Training Program - Industry Opportunities" },
-    { "date": "2025-01-05", "department": "TAP", "event": "Training Program - Networking essentials for busines growth" },
-    { "date": "2025-01-05", "department": "TAP", "event": "Training Program - Values & Culture in Business" },
-    { "date": "2025-01-05", "department": "TAP", "event": "Training Program - Essesntials of customer experience" },
-    { "date": "2025-01-06", "department": "Communications", "event": "Communications Review" },
-    { "date": "2025-01-06", "department": "HR", "event": "Committee Orientation (USA)" },
-    { "date": "2025-01-06", "department": "Networking", "event": "India International Beauty & Wellness Fair" },
-    { "date": "2025-01-06", "department": "TAP", "event": "Training Program - Process of business sustainability" },
-    { "date": "2025-01-06", "department": "TAP", "event": "Training Program - A.I for business" },
-    { "date": "2025-01-06", "department": "TAP", "event": "Training Program - Business opportunities in A.I" },
-    { "date": "2025-01-06", "department": "TAP", "event": "Training Program - Business Journey" },
-    { "date": "2025-01-07", "department": "CaseManagement", "event": "Elam Cases Report" },
-    { "date": "2025-01-07", "department": "Finance", "event": "DBohra P&L Report" },
-    { "date": "2025-01-07", "department": "Finance", "event": "TSF Credit Report" },
-    { "date": "2025-01-07", "department": "HR", "event": "Conveyance Submission" },
-    { "date": "2025-01-07", "department": "IT", "event": "NACH services live for Shiate- Ali" },
-    { "date": "2025-01-08", "department": "CaseManagement", "event": "CaseManagement Cases Update" },
-    { "date": "2025-01-08", "department": "Communications", "event": "Communications - Product Meeting" },
-    { "date": "2025-01-08", "department": "IT", "event": "Deployment of Generic OneLogin Page for QH Websites" },
-    { "date": "2025-01-08", "department": "Networking", "event": "Indus Food" },
-    { "date": "2025-01-09", "department": "CaseManagement", "event": "SHND Cases Report" },
-    { "date": "2025-01-10", "department": "CaseManagement", "event": "FEA Cases Report" },
-    { "date": "2025-01-10", "department": "Communications", "event": "Mohammedi scheme collection" },
-    { "date": "2025-01-10", "department": "Finance", "event": "Monthly Expense Report" },
-    { "date": "2025-01-10", "department": "Finance", "event": "Revenue Report" },
-    { "date": "2025-01-10", "department": "Finance", "event": "Simplified Cashflow" },
-    { "date": "2025-01-10", "department": "HR", "event": "Wazifo Submission" },
-    { "date": "2025-01-10", "department": "IT", "event": "Counseling User End - UniTesting" },
-    { "date": "2025-01-10", "department": "IT", "event": "Payment Gateway Live For Dbohra" },
-    { "date": "2025-01-10", "department": "Networking", "event": "Surat International Textile Expo" },
-    { "date": "2025-01-10", "department": "Networking", "event": "PowerON" },
-    { "date": "2025-01-10", "department": "OperationsCoordination", "event": "UKK Monthly Submission" },
-    { "date": "2025-01-10", "department": "PMO", "event": "PMO - Executive Reporting" },
-    { "date": "2025-01-10", "department": "PMO", "event": "TWT Subject Wise Orientation Begin" },
-    { "date": "2025-01-11", "department": "Product", "event": "Weekly Counselling Product Update" },
-    { "date": "2025-01-12", "department": "Communications", "event": "UI Newsletter" },
-    { "date": "2025-01-12", "department": "OperationsCoordination", "event": "Milad Amir ul-Mumineen (SA)" },
-    { "date": "2025-01-13", "department": "Communications", "event": "Communications Review" },
-    { "date": "2025-01-14", "department": "CaseManagement", "event": "Hawaij & Sadat Kiram Cases Report" },
-    { "date": "2025-01-14", "department": "Communications", "event": "Husain scheme collection" },
-    { "date": "2025-01-14", "department": "IT", "event": "Payment Gateway Live For Bangalore" },
-    { "date": "2025-01-15", "department": "CaseManagement", "event": "CaseManagement Report" },
-    { "date": "2025-01-15", "department": "Communications", "event": "Communications - Product Meeting" },
-    { "date": "2025-01-15", "department": "Finance", "event": "Reverification of Bank Account" },
-    { "date": "2025-01-15", "department": "Finance", "event": "BQHS Cashflow & Bank Balance" },
-    { "date": "2025-01-15", "department": "IT", "event": "Follow Up TR - phase 2 Go live" },
-    { "date": "2025-01-15", "department": "OperationsCoordination", "event": "Financial Dashboard Submission" },
-    { "date": "2025-01-15", "department": "OperationsCoordination", "event": "EDP Target vs Achievement Submission" },
-    { "date": "2025-01-16", "department": "CaseManagement", "event": "Muwasaat & Upliftment Cases Report" },
-    { "date": "2025-01-16", "department": "Networking", "event": "Plastech" },
-    { "date": "2025-01-17", "department": "CaseManagement", "event": "BCHET Cases Report" },
-    { "date": "2025-01-17", "department": "Communications", "event": "Mohammedi scheme collection" },
-    { "date": "2025-01-17", "department": "OperationsCoordination", "event": "Urus Syedna Taher Saifuddin (AQ) Taher scheme & Saifee foundation collection" },
-    { "date": "2025-01-18", "department": "Product", "event": "Weekly Counselling Product Update" },
-    { "date": "2025-01-19", "department": "Communications", "event": "UI Newsletter" },
-    { "date": "2025-01-19", "department": "TAP", "event": "Training Program - Digital Makreting - Burhanpur" },
-    { "date": "2025-01-20", "department": "Communications", "event": "Communications Review" },
-    { "date": "2025-01-20", "department": "IT", "event": "Assets Inventory on HR ONE App" },
-    { "date": "2025-01-21", "department": "CaseManagement", "event": "Elam Cases Report" },
-    { "date": "2025-01-21", "department": "IT", "event": "Launch of New Admin UI for QH Website (Phase 1)" },
-    { "date": "2025-01-22", "department": "CaseManagement", "event": "CaseManagement Cases Update" },
-    { "date": "2025-01-22", "department": "Communications", "event": "Communications - Product Meeting" },
-    { "date": "2025-01-23", "department": "CaseManagement", "event": "SHND Cases Report" },
-    { "date": "2025-01-23", "department": "Networking", "event": "International Private Label & Contract Manufacturing Expo" },
-    { "date": "2025-01-23", "department": "Networking", "event": "Fibers & Yarns" },
-    { "date": "2025-01-23", "department": "Networking", "event": "IMTEX" },
-    { "date": "2025-01-23", "department": "Networking", "event": "Paperworld India" },
-    { "date": "2025-01-24", "department": "CaseManagement", "event": "FEA Cases Report" },
-    { "date": "2025-01-24", "department": "Communications", "event": "Mohammedi scheme collection" },
-    { "date": "2025-01-24", "department": "Networking", "event": "ACETECH" },
-    { "date": "2025-01-25", "department": "Finance", "event": "UKK Monthly Submission" },
-    { "date": "2025-01-25", "department": "IT", "event": "Vepar Hawaij Module - UAT" },
-    { "date": "2025-01-25", "department": "IT", "event": "Whatsapp Bot" },
-    { "date": "2025-01-25", "department": "Product", "event": "Weekly Counselling Product Update" },
-    { "date": "2025-01-25", "department": "TAP", "event": "Training Program - Business Ethics - Morbi" },
-    { "date": "2025-01-25", "department": "TR_Website", "event": "Subcription to Weekly Newsletter" },
-    { "date": "2025-01-25", "department": "TR_Website", "event": "Business Maturity Index" },
-    { "date": "2025-01-25", "department": "TR_Website", "event": "Weekly Bulletin" },
-    { "date": "2025-01-25", "department": "TR_Website", "event": "Inspirational Stories of Successful Businesses" },
-    { "date": "2025-01-26", "department": "BDD", "event": "WeBazaar Event - Category : Spice and Seasoning" },
-    { "date": "2025-01-26", "department": "Communications", "event": "UI Newsletter" },
-    { "date": "2025-01-26", "department": "TAP", "event": "Training Program - Business Start-up - Gandhidham" },
-    { "date": "2025-01-26", "department": "TR_Website", "event": "Whatsapp Bot" },
-    { "date": "2025-01-27", "department": "Communications", "event": "Communications Review" },
-    { "date": "2025-01-28", "department": "CaseManagement", "event": "Hawaij & Sadat Kiram Cases Report" },
-    { "date": "2025-01-29", "department": "CaseManagement", "event": "CaseManagement Report" },
-    { "date": "2025-01-29", "department": "Communications", "event": "Communications - Product Meeting" },
-    { "date": "2025-01-29", "department": "IT", "event": "NACH services live for Taherabad" },
-    { "date": "2025-01-30", "department": "CaseManagement", "event": "Muwasaat & Upliftment Cases Report" },
-    { "date": "2025-01-30", "department": "Networking", "event": "OTM" },
-    { "date": "2025-01-31", "department": "CaseManagement", "event": "BCHET Cases Report" },
-    { "date": "2025-01-31", "department": "Communications", "event": "Mohammedi scheme collection" },
-    { "date": "2025-01-31", "department": "Networking", "event": "Hyderabad Kids Fair" },
-    { "date": "2025-01-31", "department": "OperationsCoordination", "event": "EDP submission" },
-  ]
+    {
+        "date": "2024-12-02",
+        "department": "Hijri",
+        "event": "1 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-03",
+        "department": "Hijri",
+        "event": "2 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-04",
+        "department": "Hijri",
+        "event": "3 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-05",
+        "department": "Hijri",
+        "event": "4 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-06",
+        "department": "Hijri",
+        "event": "5 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-07",
+        "department": "Hijri",
+        "event": "6 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-08",
+        "department": "Hijri",
+        "event": "7 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-09",
+        "department": "Hijri",
+        "event": "8 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-10",
+        "department": "Hijri",
+        "event": "9 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-11",
+        "department": "Hijri",
+        "event": "10 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-12",
+        "department": "Hijri",
+        "event": "11 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-13",
+        "department": "Hijri",
+        "event": "12 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-14",
+        "department": "Hijri",
+        "event": "13 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-15",
+        "department": "Hijri",
+        "event": "14 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-16",
+        "department": "Hijri",
+        "event": "15 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-17",
+        "department": "Hijri",
+        "event": "16 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-18",
+        "department": "Hijri",
+        "event": "17 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-19",
+        "department": "Hijri",
+        "event": "18 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-20",
+        "department": "Hijri",
+        "event": "19 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-21",
+        "department": "Hijri",
+        "event": "20 Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-29",
+        "department": "Hijri",
+        "event": "٢٨ Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-30",
+        "department": "Hijri",
+        "event": "٢٩ Jumada al-Ukhra 1446H"
+    },
+    {
+        "date": "2024-12-31",
+        "department": "Hijri",
+        "event": "١ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-01",
+        "department": "Hijri",
+        "event": "٢ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-02",
+        "department": "Hijri",
+        "event": "٣ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-03",
+        "department": "Hijri",
+        "event": "٤ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-04",
+        "department": "Hijri",
+        "event": "٥ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "Hijri",
+        "event": "٦ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-06",
+        "department": "Hijri",
+        "event": "٧ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-07",
+        "department": "Hijri",
+        "event": "٨ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-08",
+        "department": "Hijri",
+        "event": "٩ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-09",
+        "department": "Hijri",
+        "event": "١٠ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "Hijri",
+        "event": "١١ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-11",
+        "department": "Hijri",
+        "event": "١٢ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-12",
+        "department": "Hijri",
+        "event": "١٣ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-13",
+        "department": "Hijri",
+        "event": "١٤ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-14",
+        "department": "Hijri",
+        "event": "١٥ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-15",
+        "department": "Hijri",
+        "event": "١٦ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-16",
+        "department": "Hijri",
+        "event": "١٧ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-17",
+        "department": "Hijri",
+        "event": "١٨ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-18",
+        "department": "Hijri",
+        "event": "١٩ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-19",
+        "department": "Hijri",
+        "event": "٢٠ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-20",
+        "department": "Hijri",
+        "event": "٢١ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-21",
+        "department": "Hijri",
+        "event": "٢٢ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-22",
+        "department": "Hijri",
+        "event": "٢٣ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-23",
+        "department": "Hijri",
+        "event": "٢٤ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-24",
+        "department": "Hijri",
+        "event": "٢٥ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "Hijri",
+        "event": "٢٦ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-26",
+        "department": "Hijri",
+        "event": "٢٧ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-27",
+        "department": "Hijri",
+        "event": "٢٨ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-28",
+        "department": "Hijri",
+        "event": "٢٩ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-29",
+        "department": "Hijri",
+        "event": "٣٠ Rajab al-Asab"
+    },
+    {
+        "date": "2025-01-30",
+        "department": "Hijri",
+        "event": "١ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-01-31",
+        "department": "Hijri",
+        "event": "٢ Shabaan al-Karim"
+    },
+    {},
+    {
+        "date": "2025-02-01",
+        "department": "Hijri",
+        "event": "٣ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-02",
+        "department": "Hijri",
+        "event": "٤ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-03",
+        "department": "Hijri",
+        "event": "٥ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-04",
+        "department": "Hijri",
+        "event": "٦ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-05",
+        "department": "Hijri",
+        "event": "٧ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-06",
+        "department": "Hijri",
+        "event": "٨ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-07",
+        "department": "Hijri",
+        "event": "٩ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-08",
+        "department": "Hijri",
+        "event": "١٠ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-09",
+        "department": "Hijri",
+        "event": "١١ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-10",
+        "department": "Hijri",
+        "event": "١٢ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-11",
+        "department": "Hijri",
+        "event": "١٣ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-12",
+        "department": "Hijri",
+        "event": "١٤ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-13",
+        "department": "Hijri",
+        "event": "١٥ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-14",
+        "department": "Hijri",
+        "event": "١٦ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-15",
+        "department": "Hijri",
+        "event": "١٧ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-16",
+        "department": "Hijri",
+        "event": "١٨ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-17",
+        "department": "Hijri",
+        "event": "١٩ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-18",
+        "department": "Hijri",
+        "event": "٢٠ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-19",
+        "department": "Hijri",
+        "event": "٢١ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-20",
+        "department": "Hijri",
+        "event": "٢٢ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-21",
+        "department": "Hijri",
+        "event": "٢٣ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-22",
+        "department": "Hijri",
+        "event": "٢٤ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-23",
+        "department": "Hijri",
+        "event": "٢٥ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-24",
+        "department": "Hijri",
+        "event": "٢٦ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-25",
+        "department": "Hijri",
+        "event": "٢٧ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-26",
+        "department": "Hijri",
+        "event": "٢٨ Shabaan al-Karim"
+    },
+    {
+        "date": "2025-02-27",
+        "department": "Hijri",
+        "event": "٢٩ Shabaan al-Karim"
+    },
+    {},
+    {
+        "date": "2025-01-26",
+        "department": "IT",
+        "event": "Holiday"
+    },
+    {
+        "date": "2024-12-31",
+        "department": "CaseManagement",
+        "event": "Hawaij & Sadat Kiram Cases Report"
+    },
+    {
+        "date": "2025-01-01",
+        "department": "CaseManagement",
+        "event": "CaseManagement Report"
+    },
+    {
+        "date": "2025-01-01",
+        "department": "Communications",
+        "event": "Communications - Product Meeting"
+    },
+    {
+        "date": "2025-01-01",
+        "department": "Finance",
+        "event": "UKK Disbursement"
+    },
+    {
+        "date": "2025-01-01",
+        "department": "OperationsCoordination",
+        "event": "TWT Orientation Topic wise (PMO Collaboration)"
+    },
+    {
+        "date": "2025-01-01",
+        "department": "Product",
+        "event": "Product-Communications Meeting"
+    },
+    {
+        "date": "2025-01-01",
+        "department": "CaseManagement",
+        "event": "Muwasaat & Upliftment Cases Report"
+    },
+    {
+        "date": "2025-01-02",
+        "department": "IT",
+        "event": "Country Setup for QH - Reunion"
+    },
+    {
+        "date": "2025-01-03",
+        "department": "CaseManagement",
+        "event": "BCHET Cases Report"
+    },
+    {
+        "date": "2025-01-03",
+        "department": "Communications",
+        "event": "Mohammedi scheme collection"
+    },
+    {
+        "date": "2025-01-04",
+        "department": "BDD",
+        "event": "Saifee Burhani Expo"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "BDD",
+        "event": "Saifee Burhani Expo"
+    },
+    {
+        "date": "2025-01-06",
+        "department": "BDD",
+        "event": "Saifee Burhani Expo"
+    },
+    {
+        "date": "2025-01-04",
+        "department": "Finance",
+        "event": "Monthly UKK Reporting"
+    },
+    {
+        "date": "2025-01-04",
+        "department": "HR",
+        "event": "Khaleej Jamiyat Orientation Programme"
+    },
+    {
+        "date": "2025-01-04",
+        "department": "Networking",
+        "event": "Garfab - TX Surat"
+    },
+    {
+        "date": "2025-01-04",
+        "department": "Product",
+        "event": "Weekly Counselling Product Update"
+    },
+    {
+        "date": "2025-01-04",
+        "department": "TAP",
+        "event": "Stress & Business Growth"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "Communications",
+        "event": "UI Newsletter"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "HR",
+        "event": "Committee Orientation (USA)"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "HR",
+        "event": "Khaleej Jamiyat Orientation Programme"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "Networking",
+        "event": "Saif Expo Madras"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "TAP",
+        "event": "Training Program - Industry Opportunities"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "TAP",
+        "event": "Training Program - Networking essentials for busines growth"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "TAP",
+        "event": "Training Program - Values & Culture in Business"
+    },
+    {
+        "date": "2025-01-05",
+        "department": "TAP",
+        "event": "Training Program - Essesntials of customer experience"
+    },
+    {
+        "date": "2025-01-06",
+        "department": "Communications",
+        "event": "Communications Review"
+    },
+    {
+        "date": "2025-01-06",
+        "department": "HR",
+        "event": "Committee Orientation (USA)"
+    },
+    {
+        "date": "2025-01-06",
+        "department": "Networking",
+        "event": "India International Beauty & Wellness Fair"
+    },
+    {
+        "date": "2025-01-06",
+        "department": "TAP",
+        "event": "Training Program - Process of business sustainability"
+    },
+    {
+        "date": "2025-01-06",
+        "department": "TAP",
+        "event": "Training Program - A.I for business"
+    },
+    {
+        "date": "2025-01-06",
+        "department": "TAP",
+        "event": "Training Program - Business opportunities in A.I"
+    },
+    {
+        "date": "2025-01-06",
+        "department": "TAP",
+        "event": "Training Program - Business Journey"
+    },
+    {
+        "date": "2025-01-07",
+        "department": "CaseManagement",
+        "event": "Elam Cases Report"
+    },
+    {
+        "date": "2025-01-07",
+        "department": "Finance",
+        "event": "DBohra P&L Report"
+    },
+    {
+        "date": "2025-01-07",
+        "department": "Finance",
+        "event": "TSF Credit Report"
+    },
+    {
+        "date": "2025-01-07",
+        "department": "HR",
+        "event": "Conveyance Submission"
+    },
+    {
+        "date": "2025-01-07",
+        "department": "IT",
+        "event": "NACH services live for Shiate- Ali"
+    },
+    {
+        "date": "2025-01-08",
+        "department": "CaseManagement",
+        "event": "CaseManagement Cases Update"
+    },
+    {
+        "date": "2025-01-08",
+        "department": "Communications",
+        "event": "Communications - Product Meeting"
+    },
+    {
+        "date": "2025-01-08",
+        "department": "IT",
+        "event": "Deployment of Generic OneLogin Page for QH Websites"
+    },
+    {
+        "date": "2025-01-08",
+        "department": "Networking",
+        "event": "Indus Food"
+    },
+    {
+        "date": "2025-01-09",
+        "department": "CaseManagement",
+        "event": "SHND Cases Report"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "CaseManagement",
+        "event": "FEA Cases Report"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "Communications",
+        "event": "Mohammedi scheme collection"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "Finance",
+        "event": "Monthly Expense Report"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "Finance",
+        "event": "Revenue Report"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "Finance",
+        "event": "Simplified Cashflow"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "HR",
+        "event": "Wazifo Submission"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "IT",
+        "event": "Counseling User End - UniTesting"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "IT",
+        "event": "Payment Gateway Live For Dbohra"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "Networking",
+        "event": "Surat International Textile Expo"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "Networking",
+        "event": "PowerON"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "OperationsCoordination",
+        "event": "UKK Monthly Submission"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "PMO",
+        "event": "PMO - Executive Reporting"
+    },
+    {
+        "date": "2025-01-10",
+        "department": "PMO",
+        "event": "TWT Subject Wise Orientation Begin"
+    },
+    {
+        "date": "2025-01-11",
+        "department": "Product",
+        "event": "Weekly Counselling Product Update"
+    },
+    {
+        "date": "2025-01-12",
+        "department": "Communications",
+        "event": "UI Newsletter"
+    },
+    {
+        "date": "2025-01-12",
+        "department": "OperationsCoordination",
+        "event": "Milad Amir ul-Mumineen (SA)"
+    },
+    {
+        "date": "2025-01-13",
+        "department": "Communications",
+        "event": "Communications Review"
+    },
+    {
+        "date": "2025-01-14",
+        "department": "CaseManagement",
+        "event": "Hawaij & Sadat Kiram Cases Report"
+    },
+    {
+        "date": "2025-01-14",
+        "department": "Communications",
+        "event": "Husain scheme collection"
+    },
+    {
+        "date": "2025-01-14",
+        "department": "IT",
+        "event": "Payment Gateway Live For Bangalore"
+    },
+    {
+        "date": "2025-01-15",
+        "department": "CaseManagement",
+        "event": "CaseManagement Report"
+    },
+    {
+        "date": "2025-01-15",
+        "department": "Communications",
+        "event": "Communications - Product Meeting"
+    },
+    {
+        "date": "2025-01-15",
+        "department": "Finance",
+        "event": "Reverification of Bank Account"
+    },
+    {
+        "date": "2025-01-15",
+        "department": "Finance",
+        "event": "BQHS Cashflow & Bank Balance"
+    },
+    {
+        "date": "2025-01-15",
+        "department": "IT",
+        "event": "Follow Up TR - phase 2 Go live"
+    },
+    {
+        "date": "2025-01-15",
+        "department": "OperationsCoordination",
+        "event": "Financial Dashboard Submission"
+    },
+    {
+        "date": "2025-01-15",
+        "department": "OperationsCoordination",
+        "event": "EDP Target vs Achievement Submission"
+    },
+    {
+        "date": "2025-01-16",
+        "department": "CaseManagement",
+        "event": "Muwasaat & Upliftment Cases Report"
+    },
+    {
+        "date": "2025-01-16",
+        "department": "Networking",
+        "event": "Plastech"
+    },
+    {
+        "date": "2025-01-17",
+        "department": "CaseManagement",
+        "event": "BCHET Cases Report"
+    },
+    {
+        "date": "2025-01-17",
+        "department": "Communications",
+        "event": "Mohammedi scheme collection"
+    },
+    {
+        "date": "2025-01-17",
+        "department": "OperationsCoordination",
+        "event": "Urus Syedna Taher Saifuddin (AQ) Taher scheme & Saifee foundation collection"
+    },
+    {
+        "date": "2025-01-18",
+        "department": "Product",
+        "event": "Weekly Counselling Product Update"
+    },
+    {
+        "date": "2025-01-19",
+        "department": "Communications",
+        "event": "UI Newsletter"
+    },
+    {
+        "date": "2025-01-19",
+        "department": "TAP",
+        "event": "Training Program - Digital Makreting - Burhanpur"
+    },
+    {
+        "date": "2025-01-20",
+        "department": "Communications",
+        "event": "Communications Review"
+    },
+    {
+        "date": "2025-01-20",
+        "department": "IT",
+        "event": "Assets Inventory on HR ONE App"
+    },
+    {
+        "date": "2025-01-21",
+        "department": "CaseManagement",
+        "event": "Elam Cases Report"
+    },
+    {
+        "date": "2025-01-21",
+        "department": "IT",
+        "event": "Launch of New Admin UI for QH Website (Phase 1)"
+    },
+    {
+        "date": "2025-01-22",
+        "department": "CaseManagement",
+        "event": "CaseManagement Cases Update"
+    },
+    {
+        "date": "2025-01-22",
+        "department": "Communications",
+        "event": "Communications - Product Meeting"
+    },
+    {
+        "date": "2025-01-23",
+        "department": "CaseManagement",
+        "event": "SHND Cases Report"
+    },
+    {
+        "date": "2025-01-23",
+        "department": "Networking",
+        "event": "International Private Label & Contract Manufacturing Expo"
+    },
+    {
+        "date": "2025-01-23",
+        "department": "Networking",
+        "event": "Fibers & Yarns"
+    },
+    {
+        "date": "2025-01-23",
+        "department": "Networking",
+        "event": "IMTEX"
+    },
+    {
+        "date": "2025-01-23",
+        "department": "Networking",
+        "event": "Paperworld India"
+    },
+    {
+        "date": "2025-01-24",
+        "department": "CaseManagement",
+        "event": "FEA Cases Report"
+    },
+    {
+        "date": "2025-01-24",
+        "department": "Communications",
+        "event": "Mohammedi scheme collection"
+    },
+    {
+        "date": "2025-01-24",
+        "department": "Networking",
+        "event": "ACETECH"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "Finance",
+        "event": "UKK Monthly Submission"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "IT",
+        "event": "Vepar Hawaij Module - UAT"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "IT",
+        "event": "Whatsapp Bot"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "Product",
+        "event": "Weekly Counselling Product Update"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "TAP",
+        "event": "Training Program - Business Ethics - Morbi"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "TR_Website",
+        "event": "Subcription to Weekly Newsletter"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "TR_Website",
+        "event": "Business Maturity Index"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "TR_Website",
+        "event": "Weekly Bulletin"
+    },
+    {
+        "date": "2025-01-25",
+        "department": "TR_Website",
+        "event": "Inspirational Stories of Successful Businesses"
+    },
+    {
+        "date": "2025-01-26",
+        "department": "BDD",
+        "event": "WeBazaar Event - Category : Spice and Seasoning"
+    },
+    {
+        "date": "2025-01-26",
+        "department": "Communications",
+        "event": "UI Newsletter"
+    },
+    {
+        "date": "2025-01-26",
+        "department": "TAP",
+        "event": "Training Program - Business Start-up - Gandhidham"
+    },
+    {
+        "date": "2025-01-26",
+        "department": "TR_Website",
+        "event": "Whatsapp Bot"
+    },
+    {
+        "date": "2025-01-27",
+        "department": "Communications",
+        "event": "Communications Review"
+    },
+    {
+        "date": "2025-01-28",
+        "department": "CaseManagement",
+        "event": "Hawaij & Sadat Kiram Cases Report"
+    },
+    {
+        "date": "2025-01-29",
+        "department": "CaseManagement",
+        "event": "CaseManagement Report"
+    },
+    {
+        "date": "2025-01-29",
+        "department": "Communications",
+        "event": "Communications - Product Meeting"
+    },
+    {
+        "date": "2025-01-29",
+        "department": "IT",
+        "event": "NACH services live for Taherabad"
+    },
+    {
+        "date": "2025-01-30",
+        "department": "CaseManagement",
+        "event": "Muwasaat & Upliftment Cases Report"
+    },
+    {
+        "date": "2025-01-30",
+        "department": "Networking",
+        "event": "OTM"
+    },
+    {
+        "date": "2025-01-31",
+        "department": "CaseManagement",
+        "event": "BCHET Cases Report"
+    },
+    {
+        "date": "2025-01-31",
+        "department": "Communications",
+        "event": "Mohammedi scheme collection"
+    },
+    {
+        "date": "2025-01-31",
+        "department": "Networking",
+        "event": "Hyderabad Kids Fair"
+    },
+    {
+        "date": "2025-01-31",
+        "department": "OperationsCoordination",
+        "event": "EDP submission"
+    },
+    {}
+]
