@@ -119,17 +119,31 @@ const CalendarWithBeautifiedStyles = () => {
 //     });
 // };
   const exportToImage = () => {
-    const calendarElement = document.getElementById("calendar");
+  const calendarElement = document.getElementById("calendar");
+  const exportButton = document.getElementById("export-button"); // Add an ID to the export button
 
-    toPng(calendarElement, { quality: 0.95 })
-      .then((dataUrl) => {
-        const link = document.createElement("a");
-        link.download = "calendar.png";
-        link.href = dataUrl;
-        link.click();
-      })
-      .catch((error) => console.error("Failed to export image:", error));
-  };
+  if (!calendarElement) return;
+
+  // Temporarily hide the export button
+  if (exportButton) {
+    exportButton.style.display = "none"; // Hide the export button
+  }
+
+  // Generate the image
+  toPng(calendarElement, { quality: 0.95 })
+    .then((dataUrl) => {
+      const link = document.createElement("a");
+      link.download = "calendar.png";
+      link.href = dataUrl;
+      link.click();
+    })
+    .catch((error) => console.error("Failed to export image:", error))
+    .finally(() => {
+      // Restore the export button's visibility after the image is generated
+      if (exportButton) {
+        exportButton.style.display = "block"; // Show the export button
+      }
+    });
   //
   return (
   <div id="calendar">
