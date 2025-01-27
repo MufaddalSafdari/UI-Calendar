@@ -53,7 +53,6 @@
     { "date": "2025-01-29", "department": "Hijri", "event": "٣٠ Rajab al-Asab" },
     { "date": "2025-01-30", "department": "Hijri", "event": "١ Shabaan al-Karim" },
     { "date": "2025-01-31", "department": "Hijri", "event": "٢ Shabaan al-Karim" },
-    {},
     { "date": "2025-02-01", "department": "Hijri", "event": "٣ Shabaan al-Karim" },
     { "date": "2025-02-02", "department": "Hijri", "event": "٤ Shabaan al-Karim" },
     { "date": "2025-02-03", "department": "Hijri", "event": "٥ Shabaan al-Karim" },
@@ -81,8 +80,7 @@
     { "date": "2025-02-25", "department": "Hijri", "event": "٢٧ Shabaan al-Karim" },
     { "date": "2025-02-26", "department": "Hijri", "event": "٢٨ Shabaan al-Karim" },
     { "date": "2025-02-27", "department": "Hijri", "event": "٢٩ Shabaan al-Karim" },
-    {},
-	{ "date": "2025-01-26", "department": "IT", "event": "Holiday" },
+    { "date": "2025-01-26", "department": "IT", "event": "Holiday" },
     { "date": "2024-12-31", "department": "CaseManagement", "event": "Hawaij & Sadat Kiram Cases Report" },
     { "date": "2025-01-01", "department": "CaseManagement", "event": "CaseManagement Report" },
     { "date": "2025-01-01", "department": "Communications", "event": "Communications - Product Meeting" },
@@ -199,5 +197,4 @@
     { "date": "2025-01-31", "department": "Communications", "event": "Mohammedi scheme collection" },
     { "date": "2025-01-31", "department": "Networking", "event": "Hyderabad Kids Fair" },
     { "date": "2025-01-31", "department": "OperationsCoordination", "event": "EDP submission" },
-    {}
   ]
